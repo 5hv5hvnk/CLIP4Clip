@@ -455,7 +455,7 @@ class CLIP(nn.Module):
 
         if return_hidden:
             return x, hidden
-
+   ## save encodings:
         return x
 
     def encode_text(self, text, return_hidden=False):
